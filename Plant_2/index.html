@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant_2</title>
+
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+   
+    <center>
+        <nav class="navbar navbar-expand-lg fixed-top pt-4 pb-4 bg-white">
+            <div id="nav_width" class="container">
+              <!-- <a class="navbar-brand text-warning" href="#"> -->
+                <img src="https://neytri.wpengine.com/wp-content/uploads/2023/05/Logo.svg" alt="Neytri Site">
+              <!-- </a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="margin_nav" class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Press</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+      
+                  <div class="carousel-item active position-relative" data-bs-interval="2000">
+                    <img src="photos/slide_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                      <div class="slide_text">
+                        <h1>
+                          Plants Made Easy
+                        </h1>
+                        <p>
+                          Patch Helps You Discover The Best Plants For Your Space, Delivers Them To Your Door And Help You Look After Them. 
+                        </p>
+                        <button class="mt-5">SHOP INDOOR</button>
+                        <button class="mt-5">SHOP OUTDOOR</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item position-relative" data-bs-interval="2000">
+                    <img src="photos/slide_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                      <div style="margin-top: -50px;" class="slide_text">
+                        <h1>
+                          Make People Merry
+                        </h1>
+                        <p>
+                            Patch Helps You Discover The Best Plants For Your Space, Delivers Them To Your Door And Help You Look After Them. 
+                        </p>
+                        <button class="mt-5">SHOP INDOOR</button>
+                        <button class="mt-5">SHOP OUTDOOR</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item position-relative" data-bs-interval="2000">
+                    <img src="photos/slide_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
+                      <div class="slide_text">
+                        <h1>
+                            Gift We Love
+                        </h1>
+                        <p>
+                            Patch Helps You Discover The Best Plants For Your Space, Delivers Them To Your Door And Help You Look After Them. 
+                        </p>
+                        <button class="mt-5">SHOP INDOOR</button>
+                        <button class="mt-5">SHOP OUTDOOR</button>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="bg_color" class="container-fluid">
+            <div class="wow animate__animated animate__backInUp container">
+                <div class="row">
+                    <div id="plants" class="col col-md-4 col-sm-12 col-12">
+                        <img src="photos/plants_1.jpg" alt="">
+                        <div class="plants_text">
+                            <h1>New Arrivals</h1>
+                            <u><p>Shop Now</p></u>
+                        </div>
+                    </div>
+    
+                    <div id="plants" class="col col-md-4 col-sm-12 col-12">
+                        <img src="photos/plants_2.jpg" alt="">
+                        <div class="plants_text">
+                            <h1>New Arrivals</h1>
+                            <u><p>Shop Now</p></u>
+                        </div>
+                    </div>
+    
+                    <div id="plants" class="col col-md-4 col-sm-12 col-12">
+                        <img src="photos/plants_3.jpg" alt="">
+                        <div class="plants_text">
+                            <h1>New Arrivals</h1>
+                            <u><p>Shop Now</p></u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="bg_col" class="wow animate__animated animate__backInLeft col col-12 col-lg-4 col-sm-12">
+                    <h1>
+                        Decorate your
+                        home with plants
+                    </h1>
+                    <p class="mt-4">
+                        Praesent egestas tristique nibh. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Fusce convallis metus id felis luctus adipiscing. Integer tincidunt. Etiam imperdiet imperdiet orci
+                    </p>
+                    <div class="disp mt-5">
+                        <button>
+                            <i class="fa-solid fa-medal"></i>
+                        </button>
+                        <div class="disp_text">
+                            <h3>Unbeatable quality</h3>
+                            <p>Greater productivity and relaxation</p>
+                        </div>
+                    </div>
+                    <div class="disp mt-4">
+                        <button>
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </button>
+                        <div class="disp_text">
+                            <h3>Unbeatable quality</h3>
+                            <p>Greater productivity and relaxation</p>
+                        </div>
+                    </div>
+                    <div class="disp mt-4">
+                        <button>
+                            <i class="fa-solid fa-sun-plant-wilt"></i>
+                        </button>
+                        <div class="disp_text">
+                            <h3>Unbeatable quality</h3>
+                            <p>Greater productivity and relaxation</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="bg_col" class="wow animate__animated animate__backInRight col col-12 col-lg-4 col-sm-12">
+                    <img src="photos/img-4.png" alt="">
+                    <img class="margin_ell" src="photos/ellipse.png" alt="">
+                    <img class="margin_ell_2" src="photos/ellipse-2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid pt-5 pb-5 mt-5">
+            <div class="con_text">
+              <h1>Trending Collections</h1>
+              <p>
+                Wed egestas, nisi purus vestibulum augue, at iaculis. Nulla tincidunt convallis bibendum.
+              </p>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="wow animate__animated animate__backInDown col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                  <div class="sale">
+                    <div class="sale_img">
+                      <img id="disp_none" src="photos/img1.jpg" alt="">
+                      <img id="disp_block" src="photos/img2.jpg" alt="">
+                    </div>
+    
+                    <div class="sale_text">
+                      <p>
+                        ZZ Plant
+                      </p>
+                      <span>
+                        <del>$80.00</del> <span class="text-danger">$50.00</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wow animate__animated animate__backInDown col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="sale">
+                      <div class="sale_img">
+                        <img id="disp_none" src="photos/img3.jpg" alt="">
+                        <img id="disp_block" src="photos/img4.jpg" alt="">
+                      </div>
+      
+                      <div class="sale_text">
+                        <p>
+                          Aurora
+                        </p>
+                        <span>
+                          <del>$80.00</del> <span class="text-danger">$50.00</span>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="wow animate__animated animate__backInDown col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="sale">
+                      <div class="sale_img">
+                        <img id="disp_none" src="photos/img5.jpg" alt="">
+                        <img id="disp_block" src="photos/img6.jpg" alt="">
+                      </div>
+      
+                      <div class="sale_text">
+                        <p>
+                          Echeveria Succulent
+                        </p>
+                        <span>
+                          <del>$80.00</del> <span class="text-danger">$50.00</span>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="wow animate__animated animate__backInDown col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="sale">
+                      <div class="sale_img">
+                        <img id="disp_none" src="photos/img7.jpg" alt="">
+                        <img id="disp_block" src="photos/img8.jpg" alt="">
+                      </div>
+      
+                      <div class="sale_text">
+                        <p>
+                          Devil's Ivy
+                        </p>
+                        <span>
+                          <del>$80.00</del> <span class="text-danger">$50.00</span>
+                        </span>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="sale">
+                      <div class="sale_img">
+                        <img id="disp_none" src="photos/img9.jpg" alt="">
+                        <img id="disp_block" src="photos/img10.jpg" alt="">
+                      </div>
+      
+                      <div class="sale_text">
+                        <p>
+                          Jade Succulent
+                        </p>
+                        <span>
+                          <del>$80.00</del> <span class="text-danger">$50.00</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                      <div class="sale">
+                        <div class="sale_img">
+                          <img id="disp_none" src="photos/img11.jpg" alt="">
+                          <img id="disp_block" src="photos/img12.jpg" alt="">
+                        </div>
+        
+                        <div class="sale_text">
+                          <p>
+                           Beginner Tree
+                          </p>
+                          <span>
+                            <del>$80.00</del> <span class="text-danger">$50.00</span>
+                          </span>
+                        </div>
+                      </div>
+                  </div>
+  
+                  <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                      <div class="sale">
+                        <div class="sale_img">
+                          <img id="disp_none" src="photos/img13.jpg" alt="">
+                          <img id="disp_block" src="photos/img14.jpg" alt="">
+                        </div>
+        
+                        <div class="sale_text">
+                          <p>
+                            Pine Tree
+                          </p>
+                          <span>
+                            <del>$80.00</del> <span class="text-danger">$50.00</span>
+                          </span>
+                        </div>
+                      </div>
+                  </div>
+  
+                  <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                      <div class="sale">
+                        <div class="sale_img">
+                          <img id="disp_none" src="photos/img15.jpg" alt="">
+                          <img id="disp_block" src="photos/img16.jpg" alt="">
+                        </div>
+        
+                        <div class="sale_text">
+                          <p>
+                            Ruby Rubber Tree
+                          </p>
+                          <span>
+                            <del>$80.00</del> <span class="text-danger">$50.00</span>
+                          </span>
+                        </div>
+                      </div>
+                  </div>
+  
+                
+              </div>
+            </div>
+          </div>
+
+
+
+          <div style="border: none;" class="card mb-3 container-fluid">
+            <div id="row_bg" class="row">
+              
+              <div id="hover_bg" class="wow animate__animated animate__backInLeft col col-lg-6 col-sm-12 col-12">
+                <div class="card-body">
+                  <h1 class="display-5">Everyone Welcome</h1>
+                  <p class="mt-5">
+                    We are a Buddhist temple built in 1982, and we are at the service of the community. Come and pray with the monks, attend our special events or just spend a quiet moment in front of our Buddha Statue. You are going to experience an internal moment of peace and joy.
+                  </p>
+                  <button class="mt-5">
+                    More About Us
+                  </button>
+                </div>
+              </div>
+  
+              <div id="hover_img" class="wow animate__animated animate__backInRight col col-lg-6 col-sm-12 col-12">
+                <img src="photos/hover_1.jpg" class="img-fluid" alt="...">
+                <img class="hover_margin" src="photos/hover_2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="container-fluid mt-3">
+            <div class="row">
+              <div class="wow animate__animated animate__backInLeft col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="icon">
+                  <div class="icon_butt">
+                    <button>
+                      <img src="photos/Icon-Box-1.png" alt="">
+                    </button>
+                  </div>
+                  <div class="icon_text">
+                    <h4>Free Shipping</h3>
+                    <p>Free Shipping World wide
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="icon">
+                  <div class="icon_butt">
+                    <button>
+                      <img src="photos/Icon-Box-2.png" alt="">
+                    </button>
+                  </div>
+                  <div class="icon_text">
+                    <h4>Secured Payment</h3>
+                    <p>
+                      Safe & Secured Payments
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="icon">
+                  <div class="icon_butt">
+                    <button>
+                      <img src="photos/Icon-Box-3.png" alt="">
+                    </button>
+                  </div>
+                  <div class="icon_text">
+                    <h4>24/7 Support</h3>
+                    <p>
+                      Support Arround The Clock
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="wow animate__animated animate__backInRight col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="icon">
+                  <div class="icon_butt">
+                    <button>
+                      <img src="photos/Icon-Box-4.png" alt="">
+                    </button>
+                  </div>
+                  <div class="icon_text">
+                    <h4>Surprise Gifts</h3>
+                    <p>
+                      Free Gift Cards & Vouchers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="wow animate__animated animate__backInUp container-fluid mt-5">
+            <div id="flex" class="row">
+              <div id="footer_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+                <img src="photos/footer_1.jpg" alt="">
+  
+                <div class="insta_hover">
+                  <p>
+                    Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                  </p>
+                  <div class="insta_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>
+                    <span>SHOP THE LOOK</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="footer_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+                <img src="photos/footer_2.jpg" alt="">
+                <div class="insta_hover">
+                  <p>
+                    Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                  </p>
+                  <div class="insta_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>
+                    <span>SHOP THE LOOK</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="footer_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+                <img src="photos/footer_3.jpg" alt="">
+                <div class="insta_hover">
+                  <p>
+                    Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                  </p>
+                  <div class="insta_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>
+                    <span>SHOP THE LOOK</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="footer_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+                <img src="photos/footer_4.jpg" alt="">
+                <div class="insta_hover">
+                  <p>
+                    Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                  </p>
+                  <div class="insta_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>
+                    <span>SHOP THE LOOK</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="footer_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+                <img src="photos/footer_5.jpg" alt="">
+                <div class="insta_hover">
+                  <p>
+                    Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                  </p>
+                  <div class="insta_icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <br>
+                    <span>SHOP THE LOOK</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <footer>
+          <div id="footer_bg" class="wow animate__animated animate__backInDown container-fluid mt-5">
+              <div class="container">
+                  <div class="row">
+                      <div id="footer_col1" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <img class="circle" src="https://neytri.wpengine.com/wp-content/uploads/2023/05/Logo.svg" alt="Neytri Site">
+                          <br><br>
+                          <p>
+                              Turpis in eu mi bibendum neque egestas neunc sed blandit libero volutpat sedcras ornare arcu dui vivamus arcu
+                          </p>
+                          <h1>Download App</h1>
+                          <img src="photos/playstore.jpg" alt="">
+                          <img src="photos/apple.jpg" alt="">
+                      </div>
+
+                      <div id="footer_col2" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <h1>Contact Us</h1>
+                          <br>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p>No 12: Madison Street, Baltimore, USA 4508</p>
+                          </div>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-envelope"></i>
+                              <p>info@examples.com</p>
+                          </div>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-phone"></i>
+                              <p>+000 123 456789</p>
+                          </div>
+
+                          <br>
+                          <button>
+                              <i class="fa-brands fa-facebook-f"></i>
+                          </button>
+                          <button>
+                              <i class="fa-brands fa-instagram"></i>
+                          </button>
+                          <button>
+                              <i class="fa-brands fa-linkedin-in"></i>
+                          </button>
+                      </div>
+
+                      <div id="footer_col3" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <h1>Join Our Newsletter</h1>
+
+                          <br>
+                          <div class="footer_form">
+                              <input type="email" placeholder="Email">
+                              <button>
+                                  Subscribe
+                              </button>
+                          </div>
+                          <br>
+                          <p>We Won't Spam. We Hate It More Than You Do.</p>
+
+                          <h1>Accepted Payments:</h1>
+                          <div class="footer_img">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-Payoneer.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-amazon-pay.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-skrill.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-visa.svg" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+                  <br><br><br>
+                  <div class="row">
+                      <div class="col">
+                          <p>
+                              Copyright ©2024 All rights reserved | This template is made with <i style="color: red;" class="fa-solid fa-heart"></i> by <span style="color: red; font-weight: bolder  ;">Colorlib</span>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </footer>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+  new WOW().init();
+</script>
