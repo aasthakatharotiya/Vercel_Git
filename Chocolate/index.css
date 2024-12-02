@@ -1,0 +1,459 @@
+*{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
+}
+
+#head_butt{
+    /* border: 2px solid; */
+    width: 75%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#head_butt nav{
+    width: 60%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head_butt nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#head_butt nav a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+#head_butt .icon_nav{
+    width: 10%;
+    font-size: 22px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.head_nav{
+    display: flex; 
+    flex-direction: column; 
+    line-height: 50px;
+}
+.head_nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.head_nav a:hover{
+    color: red;
+}
+
+#flower_bg{
+    height: 650px;
+    background-image: url("photos/banner1-h43.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#gift_bg{
+    height: 650px;
+    background-image: url("photos/banner2-h43.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.left_flower{
+    rotate: -90deg;
+    float: left;
+    margin-top: 60%;
+    color: gray;
+    font-size: 20px;
+    margin-left: -50px;
+}
+.left_flower i{
+    color: rgb(164,141,77);
+    font-size: 10px;
+}
+.left_choco{
+    rotate: -90deg;
+    float: left;
+    margin-top: 45%;
+    color: rgb(164,141,77);
+    font-size: 50px;
+}
+.center_choco{
+    height: 800px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8%;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    padding: 30px;
+}
+.center_choco img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#sale{
+    height: 600px;
+    background-color: rgb(252,248,237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sale_text h1{
+    float: right;
+    /* border: 2px solid; */
+    width: 15%;
+    color: rgb(164,141,77);
+    font-size: 60px;
+}
+#sale_text p{
+    width: 80%;
+    margin-top: 20%;
+}
+#sale_text button{
+    height: 60px;
+    width: 180px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(95,64,61);
+    color: white;
+}
+#sale_text button:hover{
+    background-color: black;
+}
+
+@media screen and (max-width: 992px) {
+    .center_choco{
+        height: 500px;
+        margin-left: 50%;
+        margin-top: 8%;
+    }
+    .left_flower{
+        margin-top: 35%;
+    }
+    .left_choco{
+        margin-top: 30%;
+    }
+    #sale_text h1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 715px) {
+    .left_flower{
+        margin-top: 55%;
+    }
+    .left_choco{
+        margin-top: 45%;
+        margin-left: -20%;
+    }
+}
+@media screen and (max-width: 535px) {
+    .left_flower{
+        margin-top: 70%;
+    }
+    .left_choco{
+        margin-top: 60%;
+        margin-left: -40%;
+    }
+}
+
+
+.memories_img{
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.memories_img #img_down{
+    height: 100%;
+    width: 100%;
+}
+.memories_img #img_up{
+    height: 0%;
+    width: 0%;
+}
+.memories_img:hover #img_down{
+    height: 0%;
+    width: 0%;
+    transition: 2s;
+}
+.memories_img:hover #img_up{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+    transition-delay: 2s;
+}
+#memories_text{
+    text-align: left;
+    padding-top: 60px;
+}
+#memories_text p{
+    color: gray;
+    line-height: 30px;
+}
+.div_ul{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_ul span{
+    width: 90%;
+    color: gray;
+}
+.div_ul i{
+    color: rgb(164,141,77);
+    font-size: 10px;
+}
+
+#off_text{
+    padding: 50px;
+    text-align: left;
+}
+#off_text p{
+    color: gray;
+    line-height: 30px;
+}
+.off_img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off_img #off_down{
+    height: 100%;
+    width: 100%;
+}
+.off_img #off_up{
+    height: 0%;
+    width: 0%;
+}
+.off_img:hover #off_down{
+    height: 0%;
+    width: 0%;
+    transition: 2s;
+}
+.off_img:hover #off_up{
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+    transition-delay: 2s;
+}
+
+
+.item_img{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+.flip_img{
+    height: 100%;
+    display: flex;
+}
+.flip_img img{
+    height: 100%;
+    width: 100%;
+}
+#disp_block{
+    transform: rotateY(-90deg);
+    visibility: hidden;
+}
+#item:hover .flip_img #disp_none{
+    transform: rotateY(-90deg);
+    transition: 2s;
+    visibility: hidden;
+}
+#item:hover .flip_img #disp_block{
+    transform: rotateY(-180deg);
+    transition: 3s;
+    transition-delay: 2s;
+    visibility: visible;
+    position: absolute;
+}
+
+
+.item_text{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: rgb(101,58,38);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    /* visibility: hidden; */
+}
+.item_img:hover .item_text{
+    transition: 2s;
+    /* visibility: visible; */
+}
+.item_pay{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para{
+    text-align: left;
+}
+.para p{
+    font-size: 20px;
+}
+#red{
+    font-size: 25px;
+}
+
+
+
+#video_bg{
+    height: 400px;
+    width: 100%;
+    background-image: url('photos/back-video43-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#video_play button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 40px;
+}
+#video_next{
+    background-color: red;
+    color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+#video_play button:hover{
+    background-color: white;
+    color: red;
+}
+
+.video_iframe{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid;
+    margin-top: -400px;
+    position: relative;
+    display: none;
+}
+.video_iframe button{
+    width: 97%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    text-align: right;
+}
+
+
+
+#choco_love span{
+    color: rgb(164,141,77);
+    font-size: 25px;
+}
+#choco_love h1{
+    font-size: 40px;
+}
+#icon_flex{
+    height: 180px;
+    /* border: 2px solid; */
+    display: flex;
+}
+.icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+}
+.icon img{
+    height: 50%;
+}
+.icon_text{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+    /* border: 2px solid; */
+}
+.icon_text h3{
+    color: rgb(164,141,77);
+    font-weight: lighter;
+}
+.icon_text p{
+    color: rgb(90, 88, 88);
+}
+
+#gallery{
+    height: 300px;
+    overflow: hidden;
+}
+#gallery img{
+    height: 100%;
+    width: 100%;
+}
+#gallery:hover .gallery_text{
+    margin-top: -98%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252,248,237);
+    color: rgb(164,141,77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    transition: 1s;
+}
+
+
+footer{
+    background-color: rgb(252,248,237);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer_text{
+    text-align: left;
+}
+#footer_text p:hover{
+    color: rgb(164,141,77);
+}

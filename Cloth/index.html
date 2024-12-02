@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+   
+    <center>
+        <nav class="navbar navbar-expand-lg fixed-top pt-4 pb-4 bg-white">
+            <div id="nav_width" class="container">
+              <!-- <a class="navbar-brand text-warning" href="#"> -->
+                <img src="https://neytri.wpengine.com/wp-content/uploads/2023/05/Logo.svg" alt="Neytri Site">
+              <!-- </a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="margin_nav" class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Press</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: black;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: black;" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+      
+                  <div class="carousel-item active position-relative" data-bs-interval="2000">
+                    <img src="photos/Home-2-Slider-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption position-absolute top-50 start-0 translate-middle">
+                      <div class="slide_text position-absolute top-50 start-100 translate-middle">
+                        <h1>
+                          The most memorable friends clothing trends
+                        </h1>
+                        <p>
+                          Nulla tincidunt convallis bibendum. Duis sed risus suscipit justo maximus pulvinar. Integer neque felis, egestas a euismod in, pulvinar et nisl Aliquam ullam.
+                        </p>
+                        <button class="mt-5">SHOP COLLECTION</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item position-relative" data-bs-interval="2000">
+                    <img src="photos/Home-2-Slider-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption position-absolute top-50 start-0 translate-middle">
+                      <div class="slide_text position-absolute top-50 start-100 translate-middle">
+                        <h1>
+                          Make folks fall in love with your attire
+                        </h1>
+                        <p>
+                          Nulla tincidunt convallis bibendum. Duis sed risus suscipit justo maximus pulvinar. Integer neque felis, egestas a euismod in, pulvinar et nisl Aliquam ullam.
+                        </p>
+                        <button class="mt-5">SHOP COLLECTION</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-3">
+          <div class="row">
+            <div class="wow animate__animated animate__backInLeft col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+              <div class="icon">
+                <div class="icon_butt">
+                  <button>
+                    <img src="photos/Icon-Box-1.png" alt="">
+                  </button>
+                </div>
+                <div class="icon_text">
+                  <h4>Free Shipping</h3>
+                  <p>Free Shipping World wide
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+              <div class="icon">
+                <div class="icon_butt">
+                  <button>
+                    <img src="photos/Icon-Box-2.png" alt="">
+                  </button>
+                </div>
+                <div class="icon_text">
+                  <h4>Secured Payment</h3>
+                  <p>
+                    Safe & Secured Payments
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow animate__animated animate__backInUp col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+              <div class="icon">
+                <div class="icon_butt">
+                  <button>
+                    <img src="photos/Icon-Box-3.png" alt="">
+                  </button>
+                </div>
+                <div class="icon_text">
+                  <h4>24/7 Support</h3>
+                  <p>
+                    Support Arround The Clock
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="wow animate__animated animate__backInRight col col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+              <div class="icon">
+                <div class="icon_butt">
+                  <button>
+                    <img src="photos/Icon-Box-4.png" alt="">
+                  </button>
+                </div>
+                <div class="icon_text">
+                  <h4>Surprise Gifts</h3>
+                  <p>
+                    Free Gift Cards & Vouchers
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container mt-5">
+          <div class="row">
+            <div id="img_flex_end" class="wow animate__animated animate__backInLeft col col-md-6 col-sm-12 mt-5">
+              <div class="img_left">
+                <img src="photos/grid_1.jpg" alt="">
+                <div class="left_text">
+                  <h1>Toned Collection</h1>
+                  <span>SHOP NOW</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="img_flex" class="wow animate__animated animate__backInRight col col-md-6 col-sm-12 mt-5">
+              <div class="img_right">
+                <img src="photos/grid_2.jpg" alt="">
+                <div class="flex_text_start">
+                  <h1>Signature Collection</h1>
+                  <span>SHOP NOW</span>
+                </div>
+              </div>
+
+              <div class="img_right">
+                <img src="photos/grid_3.jpg" alt="">
+                <div class="flex_text_end">
+                  <h1>Shorts & Capris</h1>
+                  <span>SHOP NOW</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="bg_color" class="container-fluid pt-5 pb-5 mt-5">
+          <div class="con_text">
+            <h1>Trending Collections</h1>
+            <p>
+              Wed egestas, nisi purus vestibulum augue, at iaculis. Nulla tincidunt convallis bibendum.
+            </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="wow animate__animated animate__backInDown col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_1.jpg" alt="">
+                    <img id="disp_block" src="photos/img_6.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow animate__animated animate__backInDown col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_8.jpg" alt="">
+                    <img id="disp_block" src="photos/img_5.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow animate__animated animate__backInDown col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_3.jpg" alt="">
+                    <img id="disp_block" src="photos/img_4.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow animate__animated animate__backInUp col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_4.jpg" alt="">
+                    <img id="disp_block" src="photos/img_3.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow animate__animated animate__backInUp col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_5.jpg" alt="">
+                    <img id="disp_block" src="photos/img_8.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="wow animate__animated animate__backInUp col col-12 col-md-4 col-sm-12 mt-5">
+                <div class="sale">
+                  <div class="sale_img">
+                    <img id="disp_none" src="photos/img_6.jpg" alt="">
+                    <img id="disp_block" src="photos/img_1.jpg" alt="">
+                  </div>
+  
+                  <div class="sale_text">
+                    <p>
+                      Summer Suit
+                    </p>
+                    <span>
+                      $8.00 - $12.00
+                    </span>
+  
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container-fluid">
+          <div id="bg_img" class="row">
+            <div id="bg_col" class="wow animate__animated animate__backInLeft col col-12 col-md-6 col-sm-12 mt-5 mb-5">
+              <div class="bg_col_text">
+                <h1>Comfortable Wardrobes</h1>
+                <p>
+                  Aella tincidunt convallis bibendum. Sed egestas, massa a molestie facilisis.
+                </p>
+                <button class="mt-5">SHOP COLLECTION</button>
+              </div>
+            </div>
+
+            <div id="animation_col" class="wow animate__animated animate__backInRight col col-12 col-md-6 col-sm-12 mt-5 mb-5">
+              <div class="big_img">
+                <img src="photos/hover-img-1.jpg" alt="">
+              </div>
+              <div class="small_img">
+                <img src="photos/hover-img-2.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wow animate__animated animate__backInUp container-fluid">
+          <div id="flex" class="row">
+            <div id="hover_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+              <img src="photos/insta-01.jpg" alt="">
+
+              <div class="insta_hover">
+                <p>
+                  Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                </p>
+                <div class="insta_icon">
+                  <i class="fa-brands fa-instagram"></i>
+                  <br>
+                  <span>SHOP THE LOOK</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="hover_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+              <img src="photos/insta-04.jpg" alt="">
+              <div class="insta_hover">
+                <p>
+                  Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                </p>
+                <div class="insta_icon">
+                  <i class="fa-brands fa-instagram"></i>
+                  <br>
+                  <span>SHOP THE LOOK</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="hover_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+              <img src="photos/insta-05.jpg" alt="">
+              <div class="insta_hover">
+                <p>
+                  Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                </p>
+                <div class="insta_icon">
+                  <i class="fa-brands fa-instagram"></i>
+                  <br>
+                  <span>SHOP THE LOOK</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="hover_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+              <img src="photos/insta-03.jpg" alt="">
+              <div class="insta_hover">
+                <p>
+                  Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                </p>
+                <div class="insta_icon">
+                  <i class="fa-brands fa-instagram"></i>
+                  <br>
+                  <span>SHOP THE LOOK</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="hover_img" class="col col-12 col-lg-2 col-md-4 col-sm-12">
+              <img src="photos/insta-06.jpg" alt="">
+              <div class="insta_hover">
+                <p>
+                  Duis sed risus suscipit justoimus pulvinar. Integer que feis.
+                </p>
+                <div class="insta_icon">
+                  <i class="fa-brands fa-instagram"></i>
+                  <br>
+                  <span>SHOP THE LOOK</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div id="footer_bg" class="wow animate__animated animate__backInDown container-fluid">
+              <div class="container">
+                  <div class="row">
+                      <div id="footer_col1" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <img class="circle" src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/10/Logo-main1-2.svg" alt="">
+                          <br><br>
+                          <p>
+                              Turpis in eu mi bibendum neque egestas neunc sed blandit libero volutpat sedcras ornare arcu dui vivamus arcu
+                          </p>
+                          <h1>Download App</h1>
+                          <img src="photos/playstore.jpg" alt="">
+                          <img src="photos/apple.jpg" alt="">
+                      </div>
+
+                      <div id="footer_col2" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <h1>Contact Us</h1>
+                          <br>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p>No 12: Madison Street, Baltimore, USA 4508</p>
+                          </div>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-envelope"></i>
+                              <p>info@examples.com</p>
+                          </div>
+                          <div class="contact_text">
+                              <i class="fa-solid fa-phone"></i>
+                              <p>+000 123 456789</p>
+                          </div>
+
+                          <br>
+                          <button>
+                              <i class="fa-brands fa-facebook-f"></i>
+                          </button>
+                          <button>
+                              <i class="fa-brands fa-instagram"></i>
+                          </button>
+                          <button>
+                              <i class="fa-brands fa-linkedin-in"></i>
+                          </button>
+                      </div>
+
+                      <div id="footer_col3" class="col col-12 col-lg-4 col-md-6 col-sm-12">
+                          <h1>Join Our Newsletter</h1>
+
+                          <br>
+                          <div class="footer_form">
+                              <input type="email" placeholder="Email">
+                              <button>
+                                  Subscribe
+                              </button>
+                          </div>
+                          <br>
+                          <p>We Won't Spam. We Hate It More Than You Do.</p>
+
+                          <h1>Accepted Payments:</h1>
+                          <div class="footer_img">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-Payoneer.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-amazon-pay.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-skrill.svg" alt="">
+                              <img src="https://wdtmissspa.wpengine.com/wp-content/uploads/2023/09/Footer-visa.svg" alt="">
+                          </div>
+                      </div>
+                  </div>
+
+                  <br><br><br>
+                  <div class="row">
+                      <div class="col">
+                          <p>
+                              Copyright ©2024 All rights reserved | This template is made with <i style="color: red;" class="fa-solid fa-heart"></i> by <span style="color: red; font-weight: bolder  ;">Colorlib</span>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+        </footer>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+  new WOW().init();
+</script>
